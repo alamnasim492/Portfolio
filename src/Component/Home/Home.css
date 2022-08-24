@@ -1,0 +1,53 @@
+.container1{
+display: grid;
+place-items: center;
+}
+h3,h2{
+  font-size: 55px;
+  margin: 3%;
+}
+span{
+  color: red;
+}
+p{
+  font-size: 22px;
+  margin: 30px;
+  text-align: justify;
+  
+}
+button{
+  background-color: rgb(4, 4, 4);
+  color: rgb(246, 238, 238);
+  padding: 10px;
+  margin: 3px;
+  border-radius:8px;  
+}
+.button{
+  display: grid;
+  margin: 25px;
+  position: relative;
+  flex-wrap: wrap;
+
+}
+a{
+  font-size: 20px;
+  color: rgb(245, 240, 240);
+}
+@media (max-width:768px){
+  .container1{
+  display: grid;
+  place-items: center;
+}
+h3,h2{
+  font-size: 28px;
+  margin: 3%;
+  align-items:centers;
+}
+.p{
+  font-size: 20px;
+  /* color: rgb(5, 5, 5); */
+}
+span{
+  font-size: 28px;
+}
+}

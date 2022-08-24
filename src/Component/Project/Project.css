@@ -1,0 +1,123 @@
+.box{
+    /* background-color: rgb(208, 171, 171); */
+    height: 320px;
+    width: 430px;
+    display: grid;
+    place-items:center;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(13, 13, 13);
+}
+#a{
+    color:black;
+}
+#a:hover{
+    color: red;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;      
+}
+.project{
+    display: grid;
+    place-items: center;
+    text-transform: uppercase;
+}
+
+@media (max-width:1280px){
+  .box{
+    background-color: rgb(4, 4, 4);
+    height: 380px;
+    width: 48%;
+    display: grid;
+    place-items:center;
+    margin: 5px;
+    border-radius: 5px;
+    border: 3px solid rgb(240, 17, 17);
+}  
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;      
+    margin: 20px;
+}
+}
+@media (max-width:1024px){
+  .box{
+    background-color: rgb(4, 4, 4);
+    height: 300px;
+    width: 48%;
+    display: grid;
+    place-items:center;
+    margin: 5px;
+    border-radius: 5px;
+    border: 3px solid rgb(240, 17, 17);
+}  
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;      
+    margin: 20px;
+}   
+}
+@media (max-width:912px){
+.box{
+    background-color: rgb(4, 4, 4);
+    height: 300px;
+    width: 45%;
+    display: grid;
+    place-items:center;
+    margin: 5px;
+    border-radius: 5px;
+    border: 3px solid rgb(240, 17, 17);
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;      
+    margin: 20px;
+}
+}
+@media (max-width:768px){
+  .box{
+    background-color: rgb(204, 20, 20);
+    height: 300px;
+    width: 340px;
+    display: grid;
+    place-items:center;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(14, 13, 13);
+}  
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;      
+    margin: 20px;
+}
+}
+@media (max-width:540px){
+.box{
+    background-color: rgb(32, 195, 195);
+    height: 300px;
+    width: 480px;
+    display: grid;
+    place-items:center;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(12, 12, 12);
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;      
+    margin: 20px;
+}
+}

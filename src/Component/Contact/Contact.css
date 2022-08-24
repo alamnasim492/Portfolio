@@ -1,0 +1,171 @@
+.Detail{
+display: flex;
+margin-bottom: 50px;
+}
+p{
+    color: black;
+}
+.left{
+    width: 35%;
+}
+input{
+    width: 320px;
+    height: 8vh;
+    margin: 5px;
+    border-radius: 6px;
+    padding: 20px;
+}
+#btn{
+    width:99%;
+}
+button:hover{
+    color: red;
+}
+.btn_shadow{
+    justify-items: center;
+    margin: 20px;
+}
+.name{
+    width: 99%;
+}
+.textarea{
+    width: 99%;
+    height: 30vh;
+}
+input{
+    font-size: 20px;
+}
+@media only screen and (min-width:280px) and (max-width:768px){
+.Detail{
+  display: grid;
+  place-items: center;
+  margin-bottom: 50px;
+  width: 100%;
+  /* justify-items: center; */
+  /* margin: 20px; */
+} 
+p{
+    color: rgb(6, 6, 6);
+    /* justify-items: cenetr; */
+}
+
+.right{
+    display: grid;
+
+}
+#btn{
+    width:99%;
+}
+.btn_shadow{
+    justify-items: center;
+    margin: 10px;
+    color: aliceblue;
+    padding: 30px;
+    align-items: center;
+    place-items: center;
+}
+.name{
+    width: 99%;
+}
+.textarea{
+    width: 99%;
+    height: 30vh;
+}
+
+input{
+    width: 99%;
+    height: 8vh;
+    margin: 5px;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 30px;
+}
+}
+@media only screen and (min-width:768px) and (max-width:912px){
+  .Detail{
+  display: grid;
+  place-items: center;
+  margin-bottom: 50px;
+  /* justify-items: center; */
+  margin: 20px;
+} 
+p{
+    color: rgb(8, 8, 8);
+    justify-items: cenetr;
+}
+.left{
+    width: 65%;
+    margin: 30px;
+}
+.right{
+    /* display: grid; */
+    place-items: center;
+    /* align-items: center; */
+    width: 65%;
+    justify-items: center;
+}
+#btn{
+    width:99%;
+}
+
+.btn_shadow{
+    justify-items: center;
+    margin: 10px;
+    margin-left: 30px;
+    padding: 20px;
+    align-items: center;
+    place-items: center;
+    /* width: 110px; */
+}
+.name{ width: 100%;
+    border:2px solid black;
+}
+.textarea{
+    width: 100%;
+    height: 30vh;
+     border:2px solid black;
+}
+
+input{
+    width: 100%;
+    height: 8vh;
+    margin: 5px;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 30px;
+    border:2px solid black;
+    color: black;
+}  
+
+}
+@media (max-width:1280px){
+input{
+   width: 100%;
+    height: 8vh;
+    margin: 5px;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 30px;
+} 
+.btn_shadow{
+    justify-items: center;
+    margin: 10px;
+    margin-left: 30px;
+    padding: 10px;
+    align-items: center;
+    place-items: center;
+    /* width: 110px; */
+}
+.left{
+    width: 65%;
+    margin: 30px;
+}
+.right{
+    /* display: grid; */
+    place-items: center;
+    /* align-items: center; */
+    width: 65%;
+    justify-items: center;
+    margin: 30px;
+}
+}
