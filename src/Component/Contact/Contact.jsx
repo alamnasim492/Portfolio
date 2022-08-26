@@ -9,12 +9,11 @@ export default function Contact() {
   const [name,setname] =useState("");
   const [number,setnumber] =useState("");
   const [email,setemail] =useState("");
-  const [subject,setsubject] =useState("");
+  // const [subject,setsubject] =useState("");
   const [textarea,settextarea] =useState("");
   const ename=(event)=>{ setname(event.target.value); }
   const enumber=(event)=>{ setnumber(event.target.value); }
   const eemail=(event)=>{ setemail(event.target.value); }
-  const esubject=(event)=>{ setsubject(event.target.value); }
   const etextarea=(event)=>{ settextarea(event.target.value); }
   const sendEmail = (e) => {
       e.preventDefault();
@@ -28,7 +27,6 @@ export default function Contact() {
         settextarea('');
         setname('');
         setemail("");
-        setsubject("");
         alert("You data is submmited succesfully");
 
     };
